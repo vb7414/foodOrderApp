@@ -45,7 +45,7 @@
     color: white;
 }
 
-@media (max-height: 600px) {
+@media (max-height: 800px) {
     .cart-items {
         max-height: 15rem;
     }
