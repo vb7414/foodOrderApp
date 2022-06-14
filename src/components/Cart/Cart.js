@@ -78,7 +78,7 @@ const Cart = (props) => {
     const didSubmitModalContent = <p>Successfully sent the order!</p>;
 
     const cartModalContent = (
-        <React.Fragment>
+        <>
             {cartItems}
             <div className={classes.total}>
                 <span>總金額</span>
@@ -91,7 +91,7 @@ const Cart = (props) => {
                 />
             )}
             {!isCheckout && modalActions}
-        </React.Fragment>
+        </>
     );
 
     return (
